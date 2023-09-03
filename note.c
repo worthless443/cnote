@@ -29,6 +29,7 @@ int write_file(const char *fn, char *content) {
 	strcat(ffn, fn);
 	printf("%s\n",ffn);
 	FILE *f = fopen(ffn,"w");
+	if(*(format + 3) >= 0x61) *(format + 3) -= 32;
 	fprintf(f,format);
 	fclose(f);
 }
