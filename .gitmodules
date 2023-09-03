@@ -1,0 +1,9 @@
+[submodule "dmenu"]
+	path = dmenu
+	url = https://git.suckless.org/dmenu
+[submodule "cargparse"]
+	path = cargparse
+	url = https://github.com/worthless443/cargparse.git
+[submodule "cmagickarg"]
+	path = cmagickarg
+	url = https://github.com/worthless443/cmagickarg.git
